@@ -1,0 +1,78 @@
+body {
+  background-color: rgba(10, 89, 237, 0.866);
+  background-size: cover;
+  transition: all 2s ease-out;
+}
+
+fieldset {
+  color: rgb(37, 34, 34);
+  background-image: url(bg.jpg);
+  background-size: cover;
+  border: 1px solid rgb(42, 41, 41);
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 100px;
+  width: fit-content;
+}
+
+legend {
+  text-align: center;
+  color: rgb(27, 12, 12);
+  font-weight: bolder;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="text"],
+[type="password"] {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  padding: 10px;
+  transition: all 2s ease-out;
+}
+
+input[type="text"]:hover,
+[type="password"]:hover {
+  border: 2px solid aliceblue;
+}
+input[type="text"]:active,
+[type="password"]:active,
+select:active {
+  border: 2px solid black;
+}
+
+button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: medium;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  margin-left: 60px;
+  cursor: pointer;
+  transition: all 2s ease-out;
+}
+button:hover {
+  border: 1px solid aliceblue;
+  background-color: rgb(22, 22, 22);
+  color: aliceblue;
+}
+a {
+  color: rgb(6, 5, 5);
+  padding-top: -10px;
+  margin-left: 150px;
+}
+a:hover {
+  color: rgb(228, 228, 232);
+}
+#togglePassword {
+  color: #000000;
+  margin-left: -30px;
+  cursor: pointer;
+  transition: all 2s ease-out;
+}
