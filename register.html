@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,55 +10,62 @@
 <style>
 
 </style>
+
 <body>
 
-<fieldset>
-  <legend>Register an account</legend>
-    
+  <fieldset>
+    <legend>Register an account</legend>
+
     <form action="">
       <!-- <label for="name">First Name</label> -->
-      <input type="text" id="fname" placeholder="First Name"/><br>
+      <input type="text" id="fname" placeholder="First Name" /><br>
 
       <!--<label for="name">Last Name</label> -->
-      <input type="text" id="lname" placeholder="Last Name"/><br>
+      <input type="text" id="lname" placeholder="Last Name" /><br>
 
       <!-- <label for="email">Email</label> -->
-      <input type="text" id="email" placeholder="Email"/><br>
+      <input type="text" id="email" placeholder="Email" /><br>
 
       <!--<label for="numbers">Mobile</label> -->
-      <input type="text" id="numbers" placeholder="Mobile"/><br>
+      <input type="text" id="numbers" placeholder="Mobile" /><br>
 
       <label for="gender">Gender</label><br>
-      <input type="radio" id="male" name="drone" value="male" checked />
-    <label for="male">Male</label>
-  
-    <input type="radio" id="female" name="drone" value="female" />
-    <label for="female">Female</label>
+      <input type="radio" id="male" name="drone" value="male" unchecked />
+      <label for="male">Male</label>
 
-    <input type="radio" id="others" name="drone" value="others" />
-    <label for="others">Others</label><br>
+      <input type="radio" id="female" name="drone" value="female" />
+      <label for="female">Female</label>
+
+      <input type="radio" id="others" name="drone" value="others" />
+      <label for="others">Others</label><br>
 
       <label for="dob">Date of birth</label><br>
-    <input type="date" id="dob"  value="dob"/><br>
+      <input type="date" id="dob" value="dob" /><br>
 
-    <label for="password">Create a password</label><br>
-    <input type="password" id="myInput" placeholder="Password"/><br>
+      <label for="password">Create a password</label><br>
+      <input type="password" id="myInput" placeholder="Password" /><br>
 
-    <input type="checkbox" onclick="myFunction()">
-    <label for="showPswd">Show Password</label><br> 
-      <button>Create a new account</button>
+      <input type="checkbox" onclick="myFunction()">
+      <label for="showPswd">Show Password</label><br>
+      <button>Create a new account</button><br>
+
+      <div class="log-in">
+        <a href="index.html"> Log in</a>
+      </div>
+
     </form>
-</fieldset>
-<script>
-  function myFunction() {
-    const x = document.querySelector("#myInput");
-    if (x.type === "password") {
-      x.type="text";
-    }
+  </fieldset>
+  <script>
+    function myFunction() {
+      const x = document.querySelector("#myInput");
+      if (x.type === "password") {
+        x.type = "text";
+      }
       else {
         x.type = "password";
       }
-  }
-</script>
+    }
+  </script>
 </body>
+
 </html>

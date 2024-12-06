@@ -10,7 +10,7 @@ fieldset {
   border: 1px solid rgb(42, 41, 41);
   border-radius: 10px;
   margin: auto;
-  padding: 10px;
+  padding: 15px;
   width: fit-content;
 }
 legend {
@@ -40,6 +40,7 @@ button {
   color: black;
   margin-top: 10px;
   margin-left: 15px;
+  transition: all 1s ease-out;
 }
 button:hover {
   background-color: rgb(39, 38, 38);
@@ -48,4 +49,20 @@ button:hover {
 label {
   font-weight: 600;
   margin-top: 5px;
+}
+
+.log-in {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.log-in a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.log-in a:hover {
+  color: rgb(215, 134, 12);
+  text-decoration: underline;
 }
