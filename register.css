@@ -35,6 +35,8 @@ button {
   font-family: Georgia, "Times New Roman", Times, serif;
   border: 1px solid black;
   padding: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
   border-radius: 5px;
   font-size: medium;
   color: black;
@@ -43,7 +45,7 @@ button {
   transition: all 1s ease-out;
 }
 button:hover {
-  background-color: rgb(39, 38, 38);
+  background-color: rgb(104, 101, 101);
   color: aliceblue;
 }
 label {
