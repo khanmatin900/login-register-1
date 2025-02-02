@@ -11,7 +11,7 @@ fieldset {
   border-radius: 10px;
   margin: auto;
   padding: 15px;
-  width: fit-content;
+  width: 300px;
 }
 legend {
   text-align: center;
