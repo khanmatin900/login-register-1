@@ -24,6 +24,7 @@ legend {
 
 label {
   font-weight: 600;
+  margin-left: 5px;
 }
 
 input[type="text"],
@@ -68,7 +69,7 @@ a {
   margin-left: 150px;
 }
 a:hover {
-  color: rgb(228, 228, 232);
+  color: rgb(215, 134, 12);
 }
 #togglePassword {
   color: #000000;
